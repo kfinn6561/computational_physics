@@ -1,0 +1,16 @@
+bifurcation point for 1->2 period orbits found at 3.000000000000040
+bifurcation point for 2->4 period orbits found at 3.449489742783161
+bifurcation point for 4->8 period orbits found at 3.544090359551923
+bifurcation point for 8->16 period orbits found at 3.564407266095432
+bifurcation point for 16->32 period orbits found at 3.568759419543834
+bifurcation point for 32->64 period orbits found at 3.569691609801396
+bifurcation point for 64->128 period orbits found at 3.569891259378122
+bifurcation point for 128->256 period orbits found at 3.569934018373973
+bifurcation point for 256->512 period orbits found at 3.569943176048399
+bifurcation point for 512->1024 period orbits found at 3.569943206064713
+bifurcation point for 1024->2048 period orbits found at 3.569943206447420
+bifurcation point for 2048->4096 period orbits found at 3.569943207266264
+bifurcation point for 4096->8192 period orbits found at 3.569945482533742
+bifurcation point for 8192->16384 period orbits found at 3.569945665503190
+bifurcation point for 16384->32768 period orbits found at 3.569945669165290
+bifurcation point for 32768->65536 period orbits found at 3.569945671769388

@@ -1,0 +1,160 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4531,        150]
+NotebookOptionsPosition[      3859,        121]
+NotebookOutlinePosition[      4198,        136]
+CellTagsIndexPosition[      4155,        133]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Remove", "[", "\"\<Gloabal`*\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6193738542582197`*^9, 3.6193738706441574`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Remove", "::", "rmnsm"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"There are no symbols matching \
+\\\"\[NoBreak]\\!\\(\\\"Gloabal`*\\\"\\)\[NoBreak]\\\". \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Remove/rmnsm\\\", ButtonNote -> \
+\\\"Remove::rmnsm\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6193738717572207`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"l", "=", "1.000"}]], "Input",
+ CellChangeTimes->{{3.6193738754394317`*^9, 3.6193738787896233`*^9}}],
+
+Cell[BoxData["1.`"], "Output",
+ CellChangeTimes->{3.6193738795256653`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[Epsilon]", "=", "0.001"}]], "Input",
+ CellChangeTimes->{{3.61937388170679*^9, 3.619373885271994*^9}}],
+
+Cell[BoxData["0.001`"], "Output",
+ CellChangeTimes->{3.6193738875551243`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"l", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", "\[Epsilon]"}], ")"}]}], "\[Equal]", 
+      RowBox[{"2", "r", " ", "\[Theta]"}]}], ",", 
+     RowBox[{"l", "\[Equal]", 
+      RowBox[{"2", "r", " ", 
+       RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}], ",", 
+     RowBox[{"d", "==", 
+      RowBox[{"2", "r", " ", 
+       SuperscriptBox[
+        RowBox[{"Sin", "[", 
+         FractionBox["\[Theta]", "2"], "]"}], "2"]}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"d", ",", "r", ",", "\[Theta]"}], "}"}], ",", "Reals"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.619373891826369*^9, 3.619373976980239*^9}, {
+  3.6193740471442523`*^9, 3.6193740490873632`*^9}, {3.6193741206124544`*^9, 
+  3.6193741896034007`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NSolve", "::", "ratnz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"NSolve was unable to solve the system with inexact \
+coefficients. The answer was obtained by solving a corresponding exact system \
+and numericizing the result. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/NSolve\\\", ButtonNote -> \
+\\\"NSolve::ratnz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.619374053951642*^9, {3.6193741561334867`*^9, 3.619374191248495*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"d", "\[Rule]", 
+      RowBox[{"-", "0.019367821126316215`"}]}], ",", 
+     RowBox[{"r", "\[Rule]", 
+      RowBox[{"-", "6.463688167663355`"}]}], ",", 
+     RowBox[{"\[Theta]", "\[Rule]", 
+      RowBox[{"-", "0.07743257208847258`"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"d", "\[Rule]", "0.019367821126316215`"}], ",", 
+     RowBox[{"r", "\[Rule]", "6.463688167663355`"}], ",", 
+     RowBox[{"\[Theta]", "\[Rule]", "0.07743257208847258`"}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.6193739691177893`*^9, 3.6193739779482946`*^9}, 
+   3.619374053953642*^9, {3.6193741561564875`*^9, 3.619374191251495*^9}}]
+}, Open  ]]
+},
+WindowSize->{667, 670},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 145, 2, 31, "Input"],
+Cell[728, 26, 469, 10, 21, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1234, 41, 123, 2, 31, "Input"],
+Cell[1360, 45, 74, 1, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1471, 51, 127, 2, 31, "Input"],
+Cell[1601, 55, 77, 1, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1715, 61, 822, 23, 74, "Input"],
+Cell[2540, 86, 578, 12, 56, "Message"],
+Cell[3121, 100, 722, 18, 109, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
